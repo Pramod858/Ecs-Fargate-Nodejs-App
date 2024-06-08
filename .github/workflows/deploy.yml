@@ -9,7 +9,7 @@ env:
   ECR_REPOSITORY: nodejs                       # set this to your Amazon ECR repository name
   ECS_SERVICE: nodejs-app-service                  # set this to your Amazon ECS service name
   ECS_CLUSTER: nodejs-app-cluster                  # set this to your Amazon ECS cluster name
-  ECS_TASK_DEFINITION: nodejs-app-task-definition  # set this to the path to your Amazon ECS task definition
+  ECS_TASK_DEFINITION: nodejs-app-task-definition.json  # set this to the path to your Amazon ECS task definition
                                                # file, e.g. .aws/task-definition.json
   CONTAINER_NAME: nodejs-app                   # set this to the name of the container in the
                                                # containerDefinitions section of your task definition
