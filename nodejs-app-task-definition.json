@@ -4,8 +4,8 @@
   "requiresCompatibilities": ["FARGATE"],
   "revision": 2,
   "volumes": [],
-  "cpu": "1024",
-  "memory": "3072",
+  "cpu": "256",
+  "memory": "512",
   "executionRoleArn": "arn:aws:iam::670144304933:role/ecsTaskExecutionRole",
   "containerDefinitions": [
     {
