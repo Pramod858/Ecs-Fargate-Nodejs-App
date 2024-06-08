@@ -2,6 +2,8 @@
   "family": "nodejs-app-task-definition",
   "networkMode": "awsvpc",
   "requiresCompatibilities": ["FARGATE"],
+  "revision": 2,
+  "volumes": [],
   "cpu": "256",
   "memory": "512",
   "executionRoleArn": "arn:aws:iam::670144304933:role/ecsTaskExecutionRole",
@@ -9,11 +11,13 @@
     {
       "name": "nodejs-app",
       "image": "670144304933.dkr.ecr.us-east-1.amazonaws.com/nodejs",
-      "essential": true,
+      "cpu": 0,
       "portMappings": [
         {
           "containerPort": 3000,
-          "hostPort": 3000
+          "hostPort": 3000,
+          "protocol": "tcp",
+          "appProtocol": "http"
         }
       ],
       "logConfiguration": {
