@@ -9,6 +9,7 @@
   "status": "ACTIVE",
   "taskRoleArn": "arn:aws:iam::670144304933:role/ECSTaskExecutionRole",
   "executionRoleArn": "arn:aws:iam::670144304933:role/ecsTaskExecutionRole",
+  "taskDefinitionArn": "arn:aws:ecs:us-east-1:670144304933:task-definition/nodejs-app-task-definition:latest"
   "containerDefinitions": [
     {
       "name": "nodejs-app",
