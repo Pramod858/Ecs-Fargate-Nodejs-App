@@ -2,7 +2,6 @@
   "family": "nodejs-app-task-definition",
   "networkMode": "awsvpc",
   "requiresCompatibilities": ["FARGATE"],
-  "revision": 2,
   "volumes": [],
   "cpu": "1024",
   "memory": "3072",
