@@ -6,6 +6,8 @@
   "volumes": [],
   "cpu": "256",
   "memory": "512",
+  "status": "ACTIVE",
+  "taskRoleArn": "arn:aws:iam::670144304933:role/ECSTaskExecutionRole",
   "executionRoleArn": "arn:aws:iam::670144304933:role/ecsTaskExecutionRole",
   "containerDefinitions": [
     {
