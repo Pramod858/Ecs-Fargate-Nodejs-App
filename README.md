@@ -4,6 +4,8 @@ This project demonstrates how to deploy a Node.js application on AWS ECS Fargate
 
 ![Screenshot (44)](https://github.com/Pramod858/Ecs-Fargate-Nodejs-App/assets/80105491/3814b4d3-db7f-454b-b055-ed71c7fce96a)
 
+![Screenshot (5)](https://github.com/Pramod858/Ecs-Fargate-Nodejs-App/assets/80105491/ed588d53-ba73-4266-bceb-56474db0ed82)
+
 ![Screenshot (53)](https://github.com/Pramod858/Ecs-Fargate-Nodejs-App/assets/80105491/831d19e2-ca21-4ca3-8f39-1245c9c0c7a6)
 
 ![Screenshot (54)](https://github.com/Pramod858/Ecs-Fargate-Nodejs-App/assets/80105491/c823fd38-e0bf-4879-b558-ec4f2640d36a)
