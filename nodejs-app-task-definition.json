@@ -11,7 +11,7 @@
   "containerDefinitions": [
     {
       "name": "nodejs-app",
-      "image": "670144304933.dkr.ecr.us-east-1.amazonaws.com/nodejs",
+      "image": "670144304933.dkr.ecr.us-east-1.amazonaws.com/nodejs:latest",
       "portMappings": [
         {
           "containerPort": 3000,
