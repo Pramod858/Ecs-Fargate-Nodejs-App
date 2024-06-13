@@ -13,6 +13,7 @@ env:
                                                # file, e.g. .aws/task-definition.json
   CONTAINER_NAME: nodejs-app                   # set this to the name of the container in the
                                                # containerDefinitions section of your task definition
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
